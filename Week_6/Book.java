@@ -10,15 +10,15 @@ public class Book {
         inYear = year;
     }
 
-    private String title() {
+    public String title() {
         return inTitle;
     }
 
-    private String publisher() {
+    public String publisher() {
         return inPublisher;
     }
 
-    private int year() {
+    public int year() {
         return inYear ;
     }
 
