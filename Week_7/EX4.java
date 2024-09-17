@@ -11,7 +11,7 @@ public class EX4 {
         // adding 100 suitcases with one brick in each
         for (int i = 1; i <= 100; i++) {
             Thing brick = new Thing("Brick", i);
-            Suitcase suitcase = new Suitcase(100); /
+            Suitcase suitcase = new Suitcase(100);
             suitcase.addThing(brick);
 
 
