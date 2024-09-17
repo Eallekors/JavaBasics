@@ -3,16 +3,21 @@ package Week_7;
 public class EX4 {
     public static void main(String[] args) {
         Thing book = new Thing("Happiness in Three Steps", 2);
+        Thing mobile = new Thing("Nokia 3210", 1);
         Thing brick = new Thing("Brick", 4);
-        Thing laptop = new Thing("Laptop", 4);
 
-        Suitcase suitcase = new Suitcase(10);
-        suitcase.addThing(book);
-        suitcase.addThing(laptop);
-        suitcase.addThing(brick);
+        Suitcase tomsCase = new Suitcase(10);
+        tomsCase.addThing(book);
+        tomsCase.addThing(mobile);
 
-        Thing heaviest = suitcase.heaviestThing();
-        System.out.println("The heaviest thing: " + heaviest);
+        Suitcase georgesCase = new Suitcase(10);
+        georgesCase.addThing(brick);
+
+        Container container = new Container(1000);
+        container.addSuitcase(tomsCase);
+        container.addSuitcase(georgesCase);
+
+        System.out.println(container);
     }
 }
 
