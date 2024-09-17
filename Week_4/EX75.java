@@ -1,7 +1,6 @@
 package Week_4;
 
-
-public class Main {
+public class EX75 {
     public static void main(String[] args) {
         DecreasingCounter counter = new DecreasingCounter(100);
 
