@@ -9,7 +9,7 @@ public class EX9 {
 
         RegistrationPlate reg1 = new RegistrationPlate("FI", "ABC-123");
         RegistrationPlate reg2 = new RegistrationPlate("FI", "UXE-465");
-        RegistrationPlate reg3 = new RegistrationPlate("D", "B WQ-431");
+        RegistrationPlate reg3 = new RegistrationPlate("D", "BWQ-431");
         RegistrationPlate reg4 = new RegistrationPlate("FI", "XYZ-789");
 
 
