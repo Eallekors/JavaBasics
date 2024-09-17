@@ -29,4 +29,14 @@ public class Suitcase {
         }
 
     }
+
+    public void printThings() {
+        for (Thing thing : things) {
+            System.out.println(thing);
+        }
+    }
+
+    public int totalWeight() {
+       return curweight;
+    }
 }

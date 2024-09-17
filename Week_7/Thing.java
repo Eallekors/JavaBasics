@@ -14,6 +14,6 @@ public class Thing {
         return Inweight;
     }
     public String toString() {
-        return Inname + "(" + Inweight + " kg)";
+        return Inname + " (" + Inweight + " kg)";
     }
 }
