@@ -39,4 +39,18 @@ public class Suitcase {
     public int totalWeight() {
        return curweight;
     }
+
+    public Thing heaviestThing() {
+        if (things.isEmpty()) {
+            return null; // If suitcase is empty, return null
+        }
+
+        Thing heaviest = things.get(0); // Assume the first thing is the heaviest
+        for (Thing thing : things) {
+            if (thing.getWeight() > heaviest.getWeight()) {
+                heaviest = thing;
+            }
+        }
+        return heaviest;
+    }
 }
