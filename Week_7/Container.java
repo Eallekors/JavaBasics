@@ -19,4 +19,12 @@ public class Container {
     public String toString(){
         return cases.size() + " suitcases (" + curweight + " kg)";
     }
+
+    public void printThings(){
+        for (Suitcase suitcase : cases) {
+            for (Thing thing : suitcase.things) {
+                System.out.println(thing);
+            }
+        }
+    }
 }
