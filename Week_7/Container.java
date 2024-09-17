@@ -27,4 +27,12 @@ public class Container {
             }
         }
     }
+
+    public int totalWeight() {
+        return curweight;
+    }
+
+    public int getMaxWeight() {
+        return maxweight;
+    }
 }
