@@ -39,9 +39,9 @@
             <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
-      <ButtonBar layoutX="386.0" layoutY="346.0" prefHeight="40.0" prefWidth="200.0">
+      <ButtonBar layoutX="358.0" layoutY="351.0" prefHeight="35.0" prefWidth="228.0">
         <buttons>
-          <Button mnemonicParsing="false" onAction="#handleOk" text="OK" />
+          <Button mnemonicParsing="false" onAction="#handleOk" prefHeight="35.0" prefWidth="110.0" text="OK" />
             <Button mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
         </buttons>
       </ButtonBar>
